@@ -12,7 +12,7 @@ struct Recipe_List_App: App {
     
     var body: some Scene {
         WindowGroup {
-            RecipeListView() // Must match the ContentView (which is RecipeListView now)
+            RecipeTabView()
         }
     }
 }
